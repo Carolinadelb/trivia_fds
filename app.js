@@ -21,12 +21,21 @@ document.getElementById("segS").addEventListener("click", myFunction);
  function myFunction4(){
      document.getElementById("segS").innerHTML = "Incorrecto";
       }
-//Primera pregunta (Alternativa: NO)
+//Segunda pregunta (Alternativa: NO)
 document.getElementById("segN").addEventListener("click", myFunction);
  function myFunction5(){
      document.getElementById("segS").innerHTML = "Correcto";
       }
-
+// Tercera pregunta (Alternativa: SI)
+document.getElementById("terS").addEventListener("click", myFunction);
+ function myFunction6(){
+     document.getElementById("terS").innerHTML = "Correcto";
+      }
+// Tercera pregunta (Alternativa: NO)
+document.getElementById("terN").addEventListener("click", myFunction);
+ function myFunction7(){
+     document.getElementById("terS").innerHTML = "Incorrecto";
+      }
 /*
 window.onload = function() {
     var name = prompt("¿cuál es tu nombre?");
