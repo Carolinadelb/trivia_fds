@@ -3,11 +3,37 @@
 
 <head>
     <meta charset=utf-8>
-    <title>Trivia</title>
+    <title>New Trivia</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+    <div id= "title trivia">
+        <h1>Nueva Trivia</h1>
+    </div>
+    <!-- Nombre y bienvenida de juego--> 
+    <div id= "names">
+        <input id= "name" type = "name" placeholder="Nombre">
+        <button id= "send" onclick="myFunction()">Enviar</button>
+        <p id = "welcomeMsje"></p>
+    </div>
+
+     <!-- Juego/Trivia-->
+     
+    <div id= "container">
+
+        <p>"¿Es LABORATORIA una ONG?(SI/NO)"</p>
+        <button id= "priS" onclick="myFunction2()">Si</button>
+        <button id= "priN" onclick="myFunction3()">No</button>
+
+        <p>"¿LABORATORIA tiene sede en Concepción?(SI/NO)"</p>
+        <button id= "segS" onclick="myFunction4()">Si</button>
+        <button id= "segN" onclick="myFunction5()">No</button>
+
+    </div>
+
+
+
     <div id="upperBar">
         <span id="nameLabel">Nombre : </span>
         <span id="name"></span>

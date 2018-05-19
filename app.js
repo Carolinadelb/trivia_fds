@@ -1,3 +1,33 @@
+//Nombre en HTML + Bienvenida 
+function myFunction (){
+var user = document.getElementById("name").value;
+var p = document.getElementById("welcomeMsje");
+p.innerHTML = "Bienvenida " + user;
+}
+
+// Primera pregunta (Alternativa: SI)
+document.getElementById("priS").addEventListener("click", myFunction);
+ function myFunction2(){
+     document.getElementById("priS").innerHTML = "Correcto";
+      }
+//Primera pregunta (Alternativa: NO)
+document.getElementById("priN").addEventListener("click", myFunction);
+ function myFunction3(){
+     document.getElementById("priS").innerHTML = "Incorrecto";
+      }
+
+// Segunda pregunta (Alternativa: SI)
+document.getElementById("segS").addEventListener("click", myFunction);
+ function myFunction4(){
+     document.getElementById("segS").innerHTML = "Incorrecto";
+      }
+//Primera pregunta (Alternativa: NO)
+document.getElementById("segN").addEventListener("click", myFunction);
+ function myFunction5(){
+     document.getElementById("segS").innerHTML = "Correcto";
+      }
+
+/*
 window.onload = function() {
     var name = prompt("¿cuál es tu nombre?");
     document.getElementById("name").innerText = name;
@@ -37,3 +67,4 @@ window.onload = function() {
         document.getElementById("warningMessage").innerText = "Bueno Chao";
     }
 }
+*/
